@@ -1,0 +1,52 @@
+nav ul{
+float: right;
+
+}
+ nav li{
+display: inline-block;
+float: right;
+}
+.blog{
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+}
+.section1, .section2{
+  position: relative;
+  margin: 0px;
+  border: 1px solid blue;
+  padding: 0px;
+
+  display: block;
+}
+  .section2{
+    height: 500px;
+    background-color: #2B348D;
+  }
+.section1{
+ text-align: center;
+  background:#F17300;
+ height:100px;
+}
+
+form {
+  list-style: none;
+  text-align:left;
+  width: 500px;
+   height:300px;
+background: white; 
+margin: 50px;
+}
+form > h1 { 
+  color: #CBDEE5 ;
+  text-align: "center"; 
+}
+div > img {
+  float: right;
+  width: 200px;
+  height: 200px;
+}
+
+  
+  
+{
