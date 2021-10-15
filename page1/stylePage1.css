@@ -1,0 +1,156 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+nav{
+	padding-top: 10px;
+	background-color: white;
+}
+nav ul{ 
+	float: right;
+	margin: 0px 0px 0px 30px;
+	list-style-type: none;
+	height: 5	0px;
+	display: inline-block;
+}
+nav li{
+	display: inline-block;
+	line-height: 40px;
+	width: 110px;
+	text-align: center;
+}
+nav li a{
+	text-transform: lowercase;
+	text-decoration: none;
+	display: block;
+	color: black;
+}
+a:hover{
+	transition: 0.3s;
+	color: white;
+	background-color: gray;
+}
+/*style du blog*/
+.blog{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+}
+.section1, .section2{
+	min-height: 100px;
+
+}
+.section2{
+	background-color: #004F8A;
+	min-height: 400px;
+}
+.section1{
+	text-align: center;
+	background-color: #FF7120;
+}
+.section1  > h1 {
+	text-decoration: none;
+	color: #F4DBC9;
+	font-size: 26px;
+}
+
+.formulaire , .image-centre{
+	display: inline-block;
+	min-width: 100px;
+	min-height: 100px;
+} 
+.image-centre{
+	margin-top: 20px;
+	position: absolute;
+	float: right;
+	right: 10%;
+}
+.formulaire{
+	position: absolute;
+	top: 10%;
+	margin-right: 20px;
+	background-color: white;
+	min-height: 440px;
+	margin-left: 80px;
+
+}
+.textConn{
+	color: white;
+	text-align: right;
+	padding-right: 330px;
+	margin-top: -10px;
+	padding-top: 30px;
+}
+h2{
+	color: #3D94D5;
+	text-align: center;
+}
+h5{
+	color: gray;
+	text-align: center;
+}
+form input{
+	margin: 0px 20px 15px 20px ;
+	display: block;
+}
+label{
+	margin: 0px 20px 5px 20px ;
+	color: #3A3A3A;
+	font-weight: bold;
+}
+input[type=text], input[type=password]{
+	width: 500px;
+	height: 25px;
+	margin-top: 9px;
+	outline: none;
+}
+input[type=text]:focus, input[type=password]:focus{
+	color: #3D94D5;
+	box-shadow: 0px 0px 5px 2px;
+}
+input[type=checkbox], label[for=checkbox]{
+	display: inline-block;
+}
+label[for=checkbox]{
+	margin-left: -6px;
+}
+.text_pwd_oublie{
+	position: relative;
+	left: 9%;
+	top: -20px;
+	font-size: 13px;
+	text-decoration: none;
+	color: #3D94D5;
+}
+.text_pwd_oublie:hover, .last_text_lien:hover{
+	background-color: transparent;
+	color: #3D94D5;
+}
+/*Style Button*/
+button{
+	width: 91px;
+	height: 32px;
+	text-align: center;
+	outline: none;
+	background-color: #3D94D5;
+	border: none;
+	color: white;
+	position: relative;
+	left: 80%;
+	top: -66px;
+}
+button:hover{
+	cursor: pointer;
+	background-color: #297CBC;
+}
+.text_connexion_avec, .last_texte{
+	position: relative;	
+	left: -32%;
+}
+/*lien sociaux*/
+.social{
+	position: absolute;
+	left: 40%;
+	top: 290px;
+}
+
