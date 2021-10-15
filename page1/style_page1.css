@@ -1,10 +1,14 @@
 nav ul{
+  margin-top: 150px;
 float: right;
-
+position: relative;
+top: 7%;
+font-size: 170;
 }
  nav li{
 display: inline-block;
 float: right;
+margin-right: 10px;
 }
 .blog{
   padding: 0px;
@@ -37,14 +41,22 @@ form {
 background: white; 
 margin: 50px;
 }
-form > h1 { 
-  color: #CBDEE5 ;
+form > h2 { 
+  color: #5176E3;
   text-align: "center"; 
 }
+
+
 div > img {
   float: right;
   width: 200px;
   height: 200px;
+}
+.image-centre{
+  margin-top: 20px;
+  position: absolute;
+  float: right;
+  right: 10px;
 }
 
   
