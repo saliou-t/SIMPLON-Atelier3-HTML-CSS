@@ -1,0 +1,263 @@
+<<<<<<< HEAD
+header{
+    position: fixed;
+    display: inline;
+    float: none;
+    height: 200px;
+    width: 100%;
+    
+}
+header nav{
+   display:left; 
+   float: right;
+   margin-top: 30px;
+}
+nav ul li{
+    display: inline;
+    margin-top:0 ;
+    font-weight: bold;
+
+}
+header img{
+    display:left ;
+    margin-left: 10%;
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+nav ul{
+    margin-right: 250px ;
+}
+li {
+    padding: 10px;
+}
+section{
+    margin-top: 250px;
+    margin-left: 200px;
+    margin-right:230px;
+    padding: 30px ;
+    background-color: rgb(216, 233, 252);
+    height: 50px;
+}
+
+section ul li{
+    display: inline-block;
+    width: 175px;
+    color: rgb(3,55,97);
+
+
+
+}
+section ul li p{
+    border: solid;
+    border-radius: 90%;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    float: left;
+    margin-top: -10px;
+    
+
+}
+hr{
+    color: rgb(240, 67, 14);
+    width: 600px;
+}
+h1{
+    color: rgb(3,55,97);
+
+}
+#un{
+    color: rgb(216, 233, 252);
+    background-color: rgb(3,55,97);
+}
+#Q1{
+    color: rgb(3,55,97);
+    font-weight: bold;
+}
+table{
+    background-color: rgb(255,135,66);
+    margin-left: 200px;
+    margin-right:230px;
+    padding: 30px ;
+    height: 70px;
+    width: 1380px;
+    border-radius: 15px;
+
+}
+tr td{
+    font-size: 20px;
+    color: white;
+
+}
+input[type="radio"]{
+    width: 30px;
+    height: 30px;
+
+}
+.eve{
+    display: inline-block;
+float: right;
+margin-right: 240px;
+margin-top: 50px;
+}
+input[type="submit"]{
+    background-color: rgb(3,55,97);
+    padding: 9px;
+    color: #FFFFFF;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: solid;
+
+    
+
+    
+}
+button{
+    
+    background-color: rgb(3,55,97);
+    padding: 9px;
+    color: #FFFFFF;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: solid;
+
+
+
+
+
+}
+
+
+=======
+body{
+    background-color: rgb(246, 248, 248);
+}
+nav{
+    margin-top: -50px;
+}
+nav ul{ 
+	padding: 0px;
+	list-style-type: none;
+	height: 60px;
+}
+nav li{
+	display: inline-block;
+	width: 140px;
+	text-align: center;
+
+}
+nav li a{
+	text-decoration: none;
+	display: block;
+	color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+a:hover{
+    transition: 0.5s;
+	color: rgb(255, 121, 43);
+}
+ul{
+    margin-left: 900px;
+    margin-top: -100px;
+
+}
+#logo{
+    margin-left: 250px;
+    margin-top: 100px;
+
+}
+.etape{
+    background-color: rgb(216, 233, 252);
+    margin-top: 200px;
+    width: 1365px;
+    height: 100px;
+    margin-left: 250px;
+}
+#ul2{
+	list-style-type: none;
+    margin-left: 1px;
+}
+section ul li{
+    display: inline-block;
+	width: 200px;
+    font-size: 20px;
+	text-align: center;
+    margin-top: 15px;
+    color: rgb(3, 55, 97);
+    margin-top: 40px;
+
+}
+hr{
+    color: chocolate;
+    width: 450px;
+}
+section ul li p{
+    border-style: solid;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    padding:2px;
+    margin-top: -10px;
+    float: left;
+}
+.un {
+    background-color: rgb(3, 55, 97);
+    color:rgb(216, 233, 252);
+}
+h2{
+    color: rgb(3, 55, 97);
+}
+#question{
+    color: rgb(3, 55, 97);
+}
+
+table{
+    background-color: rgb(255, 135, 66);
+    margin-top: 0.1%;
+    width: 1355px;
+    height: 150px;
+    margin-left: 250px;
+    color: white;
+    border-radius: 20px;
+}
+table tr td{
+    font-size: 25px;
+}
+
+#r{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(3, 55, 97);
+    border: solid rgb(3, 55, 97);
+}
+section form input[type="submit"]{
+    margin-left: 75%;
+    background-color: rgb(3, 55, 97);
+    color: white;
+    width: 100px;
+    height: 50px;
+    height: 40px;
+    margin-top: 50px;
+    border: solid;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 20px;
+}
+section form input[type="submit"]:hover{
+    background-color: rgb(255, 135, 66);
+}
+h3{
+    margin-left: 80%;
+    background-color: rgb(3, 55, 97);
+    color: white;
+    width: 50px;
+    height: 34px;
+    margin-top: -40px;
+    border: solid;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+>>>>>>> feature/thiare
