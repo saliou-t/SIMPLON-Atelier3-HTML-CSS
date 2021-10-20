@@ -22,7 +22,6 @@ nav li a{
     font-weight: bold;
 }
 a:hover{
-    transition: 0.5s;
 	color: rgb(255, 121, 43);
 }
 ul{
@@ -127,4 +126,544 @@ h3{
     border-bottom-right-radius: 10px;
     font-size: 15px;
     text-align: center;
+}
+
+
+@media screen and (min-width: 1600px)
+{
+    nav li a{
+        text-decoration: none;
+        display: block;
+        color: rgb(0, 0, 0);
+        font-size: 15px;  
+    }
+    nav li{
+        display: inline-block;
+        width: 150px;
+        text-align: center;
+        padding: 0px;
+    }
+    a:hover{
+        color: rgb(255, 121, 43);
+    }
+    nav ul{
+        margin-left: 45%;
+        padding: 5px;
+    }
+    #logo{
+        margin-left: 8%;
+        margin-top: 100px;
+    }
+    .etape{
+        width: 85%;
+        margin-left: 8%;
+    }
+    table{
+        width: 85%;
+        margin-left: 8%;
+    }
+    section form input[type="submit"]{
+        margin-left: 83%;
+        background-color: rgb(3, 55, 97);
+        color: white;
+        width: 100px;
+        height: 50px;
+        height: 40px;
+        margin-top: 50px;
+        border: solid;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        font-size: 20px;
+    }
+    section form input[type="submit"]:hover{
+        background-color: rgb(255, 135, 66);
+    }
+    h3{
+        margin-left: 88%;
+        background-color: rgb(3, 55, 97);
+        color: white;
+        width: 70px;
+        height: 34px;
+        margin-top: -40px;
+        border: solid;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1600px)
+{
+    nav li a{
+        text-decoration: none;
+        display: block;
+        color: rgb(0, 0, 0);
+        font-size: 15px;  
+    }
+    nav li{
+        display: inline-block;
+        width: 120px;
+        text-align: center;
+        padding: 0px;
+    }
+    a:hover{
+        color: rgb(255, 121, 43);
+    }
+    nav ul{
+        margin-left: 40%;
+        padding: 5px;
+    }
+    #logo{
+        margin-left: 5%;
+        margin-top: 100px;
+    }
+    .etape{
+        width: 89%;
+        margin-left: 8%;
+    }
+    table{
+        width: 85%;
+        margin-left: 8%;
+    }
+    section form input[type="submit"]{
+        margin-left: 81%;
+        background-color: rgb(3, 55, 97);
+        color: white;
+        width: 100px;
+        height: 50px;
+        height: 40px;
+        margin-top: 50px;
+        border: solid;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        font-size: 20px;
+    }
+    section form input[type="submit"]:hover{
+        background-color: rgb(255, 135, 66);
+    }
+    #ul2{
+        list-style-type: none;
+        margin-left: 1px;
+        width: 100%;
+    }
+    section ul li{
+        display: inline-block;
+        width: 160px;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 15px;
+        color: rgb(3, 55, 97);
+        margin-top: 40px;
+    }
+    section ul li p{
+        border-style: solid;
+        border-radius: 100%;
+        width: 20px;
+        height: 20px;
+        margin-top: -10px;
+        float: left;
+    }
+    h3{
+        margin-left: 87.5%;
+        background-color: rgb(3, 55, 97);
+        color: white;
+        width: 60px;
+        height: 34px;
+        margin-top: -40px;
+        border: solid;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        font-size: 15px;
+        text-align: end;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px)
+{
+    nav li a{
+        text-decoration: none;
+        display: block;
+        color: rgb(0, 0, 0);
+        font-size: 13px;  
+    }
+    nav li{
+        display: inline-block;
+        width: 100px;
+        text-align: center;
+        padding: 0px;
+    }
+    a:hover{
+        color: rgb(255, 121, 43);
+    }
+    nav ul{
+        margin-left: 40%;
+    }
+    #logo{
+        margin-left: 8%;
+        width: 90px;
+        height: 90px;
+    }
+    .etape{
+        width: 85%;
+        margin-left: 8%;
+    }
+    table{
+        width: 85%;
+        margin-left: 8%;
+    }
+    section form input[type="submit"]{
+        margin-left: 79%;
+        background-color: rgb(3, 55, 97);
+        color: white;
+        width: 100px;
+        height: 50px;
+        height: 40px;
+        margin-top: 50px;
+        border: solid;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        font-size: 20px;
+    }
+    section form input[type="submit"]:hover{
+        background-color: rgb(255, 135, 66);
+    }
+    h3{
+        margin-left: 87%;
+        background-color: rgb(3, 55, 97);
+        color: white;
+        width: 59px;
+        height: 34px;
+        margin-top: -40px;
+        border: solid;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        font-size: 15px;
+        text-align: end;
+    }
+    section ul li{
+        display: inline-block;
+        width: 130px;
+        font-size: 12px;
+        text-align: center;
+        margin-top: 40px;
+        color: rgb(3, 55, 97);    
+    }
+    section ul li p{
+        border-style: solid;
+        border-radius: 100%;
+        width: 15px;
+        height: 15px;
+        margin-top: -10px;
+        float: left;
+    }
+    #ul2{
+        margin-left: -50px;
+    }
+}
+   
+
+@media screen and (min-width: 768px) and (max-width: 992px)
+{
+    nav li a{
+        text-decoration: none;
+        display: block;
+        color: rgb(0, 0, 0);
+        font-size: 10px;  
+    }
+    nav li{
+        display: inline-block;
+        width: 85px;
+        text-align: center;
+        padding: 0px;
+    }
+    a:hover{
+        color: rgb(255, 121, 43);
+    }
+    nav ul{
+        margin-left: 35%;
+    }
+    #logo{
+        margin-left: 8%;
+        width: 90px;
+        height: 90px;
+    }
+    .etape{
+        width: 94%;
+        margin-left: 3%;
+    }
+    table{
+        width: 85%;
+        margin-left: 8%;
+        height: 100%;
+    }
+    table tr td{
+        font-size: 17px;
+    } 
+    #r{
+        width: 15px;
+        height: 15px;
+        background-color: rgb(3, 55, 97);
+        border: solid rgb(3, 55, 97);
+    }
+    section form input[type="submit"]{
+        margin-left: 75%;
+        background-color: rgb(3, 55, 97);
+        color: white;
+        width: 100px;
+        height: 50px;
+        height: 40px;
+        margin-top: 50px;
+        border: solid;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        font-size: 20px;
+    }
+    section form input[type="submit"]:hover{
+        background-color: rgb(255, 135, 66);
+    }
+    h3{
+        margin-left: 85%;
+        background-color: rgb(3, 55, 97);
+        color: white;
+        width: 59px;
+        height: 34px;
+        margin-top: -40px;
+        border: solid;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        font-size: 15px;
+        text-align: end;
+    }
+    section ul li{
+        display: inline-block;
+        width: 110px;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 40px;
+        color: rgb(3, 55, 97);    
+    }
+    section ul li p{
+        border-style: solid;
+        border-radius: 100%;
+        width: 12px;
+        height: 12px;
+        margin-top: -10px;
+        float: left;
+    }
+    #ul2{
+        margin-left: -30px;
+    }
+    hr{
+        width: 100px;
+    }
+
+}
+@media screen and (max-width: 768px)
+{
+    nav li a{
+        text-decoration: none;
+        display: block;
+        color: rgb(0, 0, 0);
+        font-size: 10px;  
+    }
+    nav li{
+        display: inline-block;
+        width: 80px;
+        text-align: center;
+        padding: 0px;
+    }
+    a:hover{
+        color: rgb(255, 121, 43);
+    }
+    nav ul{
+        margin-left: 12%;
+        margin-top: 10px;
+    }
+    #logo{
+        margin-left: 1px;
+        width: 100px;
+        height: 100px;
+    }
+    .etape{
+        width: 94%;
+        margin-left: 3%;
+        margin-top: 20%;
+        height: auto;
+    }
+
+    table{
+        width: 85%;
+        margin-left: 8%;
+        height: 100%;
+    }
+    table tr td{
+        font-size: 17px;
+    } 
+    #r{
+        width: 15px;
+        height: 15px;
+        background-color: rgb(3, 55, 97);
+        border: solid rgb(3, 55, 97);
+    }
+    section form input[type="submit"]{
+        margin-left: 69%;
+        background-color: rgb(3, 55, 97);
+        color: white;
+        width: 100px;
+        height: 50px;
+        height: 40px;
+        margin-top: 50px;
+        border: solid;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        font-size: 20px;
+    }
+    section form input[type="submit"]:hover{
+        background-color: rgb(255, 135, 66);
+    }
+    h3{
+        margin-left: 83%;
+        background-color: rgb(3, 55, 97);
+        color: white;
+        width: 59px;
+        height: 34px;
+        margin-top: -40px;
+        border: solid;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        font-size: 15px;
+        text-align: end;
+    }
+    section ul li{
+        display: inline-block;
+        width: 150px;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 40px;
+        color: rgb(3, 55, 97);    
+    }
+    section ul li p{
+        border-style: solid;
+        border-radius: 100%;
+        width: 15px;
+        height: 15px;
+        margin-top: -10px;
+        float: left;
+    }
+    #ul2{
+        margin-left: -30px;
+    }
+    
+    nav{
+        width: 90%;
+        text-align: center;
+    }
+    hr{
+        width: 100px;
+    }
+    
+}
+@media screen and (max-width: 441px)
+{
+    nav li a{
+        text-decoration: none;
+        display: block;
+        color: rgb(0, 0, 0);
+        font-size: 10px;  
+    }
+    nav li{
+        display: inline-block;
+        width: 80px;
+        text-align: center;
+        padding: 0px;
+    }
+    a:hover{
+        color: rgb(255, 121, 43);
+    }
+    nav ul{
+        margin-left: 12%;
+        margin-top: 10px;
+    }
+    hr{
+        width: 100px;
+    }
+    #logo{
+        margin-left: 1px;
+        width: 100px;
+        height: 100px;
+    }
+    .etape{
+        width: 94%;
+        margin-left: 3%;
+        margin-top: 30%;
+        height: auto;
+    }
+
+    table{
+        width: 85%;
+        margin-left: 8%;
+        height: 100%;
+    }
+    table tr td{
+        font-size: 17px;
+    } 
+    #r{
+        width: 15px;
+        height: 15px;
+        background-color: rgb(3, 55, 97);
+        border: solid rgb(3, 55, 97);
+    }
+    section form input[type="submit"]{
+        margin-left: 54%;
+        background-color: rgb(3, 55, 97);
+        color: white;
+        width: 100px;
+        height: 50px;
+        height: 40px;
+        margin-top: 50px;
+        border: solid;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        font-size: 20px;
+    }
+    section form input[type="submit"]:hover{
+        background-color: rgb(255, 135, 66);
+    }
+    h3{
+        margin-left: 76%;
+        background-color: rgb(3, 55, 97);
+        color: white;
+        width: 59px;
+        height: 34px;
+        margin-top: -40px;
+        border: solid;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        font-size: 15px;
+        text-align: end;
+    }
+    section ul li{
+        display: inline-block;
+        width: 150px;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 40px;
+        color: rgb(3, 55, 97);    
+    }
+    section ul li p{
+        border-style: solid;
+        border-radius: 100%;
+        width: 15px;
+        height: 15px;
+        margin-top: -10px;
+        float: left;
+    }
+    #ul2{
+        margin-left: -30px;
+    }
+    
+    nav{
+        width: 90%;
+        text-align: center;
+    }
 }
