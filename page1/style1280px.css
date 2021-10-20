@@ -1,0 +1,87 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+nav{
+	background-color: #FF7120;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+nav ul{
+
+}
+nav li{
+	display: block;
+	line-height: 40px;
+	width: 110px;
+	text-align: center;
+}
+nav > img{
+	width: 130px;
+}
+nav > img:hover{
+	cursor: pointer;
+	transition: 0.9s;
+	transform: rotate(0deg);
+}
+nav li a{
+	text-transform: lowercase;
+	text-decoration: none;
+	display: block;
+	color: white;
+	font-weight: bold;
+}
+nav li a:hover{
+	background-color: #004F8A;
+}
+a:hover{
+	color: white;
+	background-color: gray;
+}
+.section2{
+	height: 100%;
+}
+.image-centre{
+	display: none;
+}
+.section1{
+	display: none;
+}
+.formulaire{
+	position: relative;
+	margin-left: 5%;
+	width: 90%;
+	height: 530px;
+}
+.social{
+	position: absolute;
+	left: 40%;
+	top: 340px;
+}
+.icons{
+	position: relative;
+	left: 3%;
+}
+form{
+
+}
+
+input[type=text], input[type=password]{
+	border: 1px solid #004F8A;
+	width: 90%;
+	height: 25px;
+	margin-top: 9px;
+	outline: none;
+}
+input[type=text]:focus, input[type=password]:focus{
+	color: #3D94D5;
+	box-shadow: none;
+}
+button{
+	top: -40px;
+	width: 91px;
+	height: 32px;
+	line-height: 32px;
+	left: 77%;
+}

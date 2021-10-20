@@ -1,0 +1,107 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+nav{
+	background-color: #FF7120;
+	padding-bottom: 10px;
+	height: 130px;
+}
+nav ul{
+	width: 100%;
+	margin-top: -49px;
+}
+nav li{
+	margin-top: 10px;
+	display: inline-block;
+	line-height: 40px;
+	width: 80px;
+	text-align: center;
+	font-size: 12px;
+}
+li a:active{
+	background-color: red;
+}
+nav > img{
+	margin-bottom: 19px;
+	margin-top: -30px;
+	left: 30%;
+	position: relative;
+	width: 130px;
+}
+nav > img:hover{
+	cursor: pointer;
+	transition: 0.9s;
+	transform: none;
+}
+nav li a{
+	text-transform: lowercase;
+	text-decoration: none;
+	display: block;
+	color: white;
+}
+nav li a:hover{
+	background-color: #004F8A;
+}
+a:hover{
+	color: white;
+	background-color: gray;
+}
+.section2{
+	height: 90%;
+}
+.image-centre{
+	display: none;
+}
+.section1{
+	display: none;
+}
+.text_pwd_oublie{
+	position: relative;
+	left: 14%;
+	top: -20px;
+	font-size: 13px;
+	text-decoration: none;
+	color: #3D94D5;
+}
+.formulaire{
+	padding-bottom: 10px;
+	position: relative;
+	margin-left: 5%;
+	height: 500px;
+	width: 90%;
+}
+.social{
+	position: absolute;
+	left: 40%;
+	top: 350px;
+}
+.social > h5 a{
+	display: block;
+}
+.icons{
+	position: relative;
+	left: -13%;
+}
+input , label{
+	position: relative;
+}
+input{
+	max-width: 300px;
+	border: 1px solid #004F8A;
+}
+input[type=text]:focus, input[type=password]:focus{
+	color: #3D94D5;
+	box-shadow: none;
+	transition: ease-in-out, width .35s ease-in-out;
+}
+button{
+	top: -32px;
+	width: 91px;
+	height: 32px;
+	line-height: 32px;
+	left: 68%;
+}
+.fa{
+
+}
