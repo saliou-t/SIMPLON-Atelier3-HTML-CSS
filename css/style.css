@@ -13,7 +13,6 @@ nav li{
 	display: inline-block;
 	width: 140px;
 	text-align: center;
-
 }
 nav li a{
 	text-decoration: none;
@@ -27,12 +26,10 @@ a:hover{
 ul{
     margin-left: 900px;
     margin-top: -100px;
-
 }
 #logo{
     margin-left: 250px;
     margin-top: 100px;
-
 }
 .etape{
     background-color: rgb(216, 233, 252);
@@ -53,7 +50,6 @@ section ul li{
     margin-top: 15px;
     color: rgb(3, 55, 97);
     margin-top: 40px;
-
 }
 hr{
     color: chocolate;
@@ -78,7 +74,6 @@ h2{
 #question{
     color: rgb(3, 55, 97);
 }
-
 table{
     background-color: rgb(255, 135, 66);
     margin-top: 0.1%;
@@ -91,7 +86,6 @@ table{
 table tr td{
     font-size: 25px;
 }
-
 #r{
     width: 20px;
     height: 20px;
@@ -127,8 +121,6 @@ h3{
     font-size: 15px;
     text-align: center;
 }
-
-
 @media screen and (min-width: 1600px)
 {
     nav li a{
@@ -277,7 +269,6 @@ h3{
         text-align: end;
     }
 }
-
 @media screen and (min-width: 992px) and (max-width: 1200px)
 {
     nav li a{
@@ -360,8 +351,6 @@ h3{
         margin-left: -50px;
     }
 }
-   
-
 @media screen and (min-width: 768px) and (max-width: 992px)
 {
     nav li a{
@@ -456,7 +445,6 @@ h3{
     hr{
         width: 100px;
     }
-
 }
 @media screen and (max-width: 768px)
 {
@@ -490,7 +478,6 @@ h3{
         margin-top: 20%;
         height: auto;
     }
-
     table{
         width: 85%;
         margin-left: 8%;
@@ -661,7 +648,6 @@ h3{
     #ul2{
         margin-left: -30px;
     }
-    
     nav{
         width: 90%;
         text-align: center;

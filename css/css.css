@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+nav{
+    margin-top: -50px;
+}
+nav ul{ 
+	padding: 0px;
+	list-style-type: none;
+	height: 60px;
+}
+nav li{
+	display: inline-block;
+	width: 140px;
+	text-align: center;
+}
+nav li a{
+	text-decoration: none;
+	display: block;
+	color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+a:hover{
+	color: rgb(255, 121, 43);
+}
+ul{
+    margin-left: 900px;
+    margin-top: -160px;
+}
+#logo{
+    margin-left: 90px;
+    margin-top: 60px;
+    width: 250px;
+    height: 250px;
+}
+#corps{
+    background-color: rgb(232, 240, 240);
+    border: rgb(232, 240, 240) solid;
+    border-radius: 100px;
+    box-shadow: rgb(131, 136, 136) 1px 1px 1px 1px;
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+h1{
+    margin-top: 6%;
+    margin-left: 54%;
+    font-size: 70px;
+    color: rgb(0, 43, 99);
+}
+.p{
+    margin-left: 63%;
+    font-size: 20px;
+    margin-top: -3%;
+    color: rgb(0, 43, 99);
+}
+img{
+    width: 60%;
+    height: 60%;
+    margin-top: -10%;
+    margin-left: -5%;
+
+}
+#texte{
+    border: rgb(255, 121, 43) solid 1px;
+    border-radius: 5px;
+    width: 37%;
+    height: 33%;
+    margin-top: -25%;
+    margin-left: 52%;
+    border-radius: 50px;
+}
+#texte p{
+    font-size: 30px;
+    margin-left: 30px;
+    color: rgb(0, 43, 99);
+}
+#pied{
+    margin-left: 40%;
+    font-size: 20px;
+    margin-top: 10%; 
+}
+#pied i {
+    font-size: 26px;
+    color: rgb(0, 43, 99);
+}
+#pied a{
+    text-decoration: none;
+    margin-left: 50px;
+    border: blue solid 1px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 200%;
+    padding: 1%;
+    background-color: rgb(3, 148, 23);
+    color: white;
+font-weight: bold;
+}
+#pied a p {
+
+}
